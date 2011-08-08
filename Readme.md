@@ -1,10 +1,7 @@
 
 # Sass.js
 
-  JavaScript implementation of Sass. Great for **node.js** and other
-  frameworks supporting the CommonJS module system.
-
-  I strongly suggest that you check out my other project [Stylus](http://learnboost.github.com/stylus).
+JavaScript implementation of Sass. Great for **node.js** and other frameworks supporting the CommonJS module system.
   
 ## Installation
 
@@ -39,12 +36,18 @@ compiles to
     !red = #ff0000
     body
       :color !red
-      
+
 and
-    
+
     red: #ff0000
     body
       :color !red
+
+and
+
+    $red: #ff0000
+    body
+      :color $red
      
 compile to
 
