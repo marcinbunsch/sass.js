@@ -1,7 +1,5 @@
-
-require.paths.unshift('spec', 'spec/lib', 'lib')
-require('jspec')
-sass = require('sass')
+require('./lib/jspec')
+sass = require('..')
 
 JSpec
   .exec('spec/spec.core.js')
