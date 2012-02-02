@@ -1,9 +1,12 @@
 {
   "name": "sass",
   "description": "Syntactically Awesome Stylesheets (compiles to css)",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "keywords": ["sass", "template", "css", "view"],
   "author": "TJ Holowaychuk <tj@vision-media.ca>",
-  "contributors": ["Chris Pickel <sfiera@gmail.com>"],
+  "contributors": [
+    "Chris Pickel <sfiera@gmail.com>",
+    "David Schoonover <david.schoonover@gmail.com>"
+  ],
   "main": "./lib/sass.js"
 }

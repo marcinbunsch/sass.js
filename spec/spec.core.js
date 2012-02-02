@@ -110,6 +110,12 @@ describe 'Sass'
         assert('variables.alternate')
       end
     end
+    
+    describe '$key: val'
+      it 'should define a variable'
+        assert('variables.dollar')
+      end
+    end
   end
   
   describe '+mixin'
