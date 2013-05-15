@@ -1,0 +1,11 @@
+#!/bin/bash
+
+files=`ls test/fixtures/*.sass | sed -e 's/\.sass//g'`
+
+for file in $files; do
+  echo "Compiling $file"
+  sass "$file.sass" > "$file.css"
+done
+
+echo ""
+

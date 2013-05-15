@@ -1,0 +1,39 @@
+$var0: 11
+$var1: $var0
+
+@mixin wat
+  color: wat
+  a
+    color: blue
+
+=wat2
+  color: wat2
+  *zoom: 1
+
+body
+  a
+    color: red
+
+    &:hover
+      background: red
+
+  a:hover
+    color: white
+
+  a:checked
+    color: yellow
+
+  div
+    font-size: 11px
+    @include wat
+    +wat2
+
+    .something &
+      border: 1px solid red
+
+    a
+      font-size: 14px
+
+  > p
+    margin-top: $var1
+

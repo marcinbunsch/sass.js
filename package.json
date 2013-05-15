@@ -8,5 +8,10 @@
     "Chris Pickel <sfiera@gmail.com>",
     "David Schoonover <david.schoonover@gmail.com>"
   ],
-  "main": "./lib/sass.js"
+  "main": "./lib/sass.js",
+  "devDependencies" : {
+    "mocha": "",
+    "glob": "",
+    "should": ""
+  }
 }

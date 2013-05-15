@@ -1,11 +1,8 @@
-
-all: test
+all: tests
 	
-test: spec/node.js
-	@node spec/node.js
+tests:
+	@node_modules/.bin/mocha test/sass_test.js
 	
-benchmark:
-	@node benchmarks/large.js
-	
-.PHONY: test benchmark
-	
+ruby:
+	@script/compile_with_ruby_sass
+  

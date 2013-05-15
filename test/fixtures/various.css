@@ -1,0 +1,21 @@
+body a {
+  color: red; }
+  body a:hover {
+    background: red; }
+body a:hover {
+  color: white; }
+body a:checked {
+  color: yellow; }
+body div {
+  font-size: 11px;
+  color: wat;
+  color: wat2;
+  *zoom: 1; }
+  body div a {
+    color: blue; }
+  .something body div {
+    border: 1px solid red; }
+  body div a {
+    font-size: 14px; }
+body > p {
+  margin-top: 11; }

@@ -1,0 +1,8 @@
+a {
+  color: white; }
+  a:hover {
+    color: black; }
+  a.active {
+    background: grey; }
+    a.active:hover {
+      color: white; }

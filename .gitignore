@@ -5,3 +5,5 @@
 pkg
 build
 bin
+node_modules
+.sass-cache
